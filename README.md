@@ -15,6 +15,23 @@ The dataset is sourced from the **PIMA Indians Diabetes Database** and contains 
 - **Body Mass Index (BMI)**
 - **Diabetes Pedigree Function**
 - **Age**
+## Features Contain
+- **Pregnancies: Number of pregnancies the patient has had.**
+
+- **Plasma Glucose Concentration: The plasma glucose concentration after 2 hours in an oral glucose tolerance test.**
+
+- **Diastolic Blood Pressure: The diastolic blood pressure (mm Hg).**
+
+- **Triceps Skin Fold Thickness: The triceps skin fold thickness (mm).**
+
+- **Serum Insulin: The serum insulin level (mu U/ml).**
+
+- **Body Mass Index (BMI): The body mass index of the patient.**
+
+- **Diabetes Pedigree Function: A function that represents the genetic relationship of the patient to diabetes (a value based on the patient's family history).**
+
+- **Age: Age of the patient (in years).**
+
 
 ## Installation
 
@@ -77,3 +94,19 @@ This project is licensed under the MIT License.
 
 - **PIMA Indians Diabetes Dataset**
 - **Scikit-learn Documentation**
+
+## Environment, Packages, and Libraries
+
+The following packages are used in this project:
+
+- **Streamlit: For deploying the app.**
+
+- **scikit-learn: For machine learning model (Random Forest Classifier).**
+
+- **joblib: For saving and loading the trained model.**
+
+- **pandas: For data manipulation.**
+
+- **numpy: For numerical operations.**
+
+To install the required libraries, simply run:
