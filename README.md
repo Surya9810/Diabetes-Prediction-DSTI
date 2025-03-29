@@ -15,7 +15,7 @@ The dataset is sourced from the **PIMA Indians Diabetes Database** and contains 
 - **Body Mass Index (BMI)**
 - **Diabetes Pedigree Function**
 - **Age**
-## Features Contain
+## Features Contains
 - **Pregnancies: Number of pregnancies the patient has had.**
 
 - **Plasma Glucose Concentration: The plasma glucose concentration after 2 hours in an oral glucose tolerance test.**
@@ -90,11 +90,6 @@ The app can be deployed using platforms like Streamlit Share or Heroku.
 
 This project is licensed under the MIT License.
 
-## References
-
-- **PIMA Indians Diabetes Dataset**
-- **Scikit-learn Documentation**
-
 ## Environment, Packages, and Libraries
 
 The following packages are used in this project:
@@ -110,3 +105,8 @@ The following packages are used in this project:
 - **numpy: For numerical operations.**
 
 To install the required libraries, simply run:
+
+## References
+
+- **PIMA Indians Diabetes Dataset**
+- **Scikit-learn Documentation**
