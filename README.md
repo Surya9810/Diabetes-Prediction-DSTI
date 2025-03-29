@@ -72,3 +72,8 @@ The app can be deployed using platforms like Streamlit Share or Heroku.
 ## License
 
 This project is licensed under the MIT License.
+
+## References
+
+- **PIMA Indians Diabetes Dataset**
+- **Scikit-learn Documentation**
