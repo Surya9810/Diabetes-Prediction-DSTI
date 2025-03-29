@@ -49,7 +49,8 @@ This notebook performs the following steps:
 - **Saves the necessary files (random_forest_model.pkl, scaler.pkl)**
 
 
-Deployment
+## Deployment
+
 The app can be deployed using platforms like Streamlit Share or Heroku.
 
 1. Push the code to GitHub (already done).
@@ -60,12 +61,14 @@ The app can be deployed using platforms like Streamlit Share or Heroku.
    ```bash
    streamlit run app.py
 
-Results
+## Results
+
 -- **Model Accuracy: ~85%**
 
 -- **ROC-AUC Score: 0.88**
 
 -- **Best Model: Random Forest Classifier**
 
-License
+## License
+
 This project is licensed under the MIT License.
