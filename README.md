@@ -104,7 +104,9 @@ The following packages are used in this project:
 
 - **numpy: For numerical operations.**
 
-To install the required libraries, simply run:
+1. To install the required libraries, simply run:
+   ```bash
+   pip install -r requirements.txt
 
 ## References
 
