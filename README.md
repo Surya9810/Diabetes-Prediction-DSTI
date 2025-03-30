@@ -80,9 +80,9 @@ The app can be deployed using platforms like Streamlit Share or Heroku.
 
 ## Results
 
--- **Model Accuracy: ~85%**
+-- **Model Accuracy: ~93.27%**
 
--- **ROC-AUC Score: 0.88**
+-- **ROC-AUC Score: 0.9812**
 
 -- **Best Model: Random Forest Classifier**
 
