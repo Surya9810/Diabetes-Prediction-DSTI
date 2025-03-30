@@ -4,7 +4,7 @@
 This project predicts the likelihood of diabetes in patients based on various health metrics using a **Random Forest Classifier**. The model is deployed using **Streamlit** for real-time predictions.
 
 ## Dataset
-The dataset is sourced from the **PIMA Indians Diabetes Database** and contains health indicators such as glucose levels, BMI, insulin levels, and more.
+The dataset is sourced from the **TAIPEI Diabetes Database** and contains health indicators such as glucose levels, BMI, insulin levels, and more.
 
 ## Features Used
 - **Pregnancies**
@@ -110,5 +110,5 @@ The following packages are used in this project:
 
 ## References
 
-- **PIMA Indians Diabetes Dataset**
+- **TAIPEI Diabetes Dataset**
 - **Scikit-learn Documentation**
