@@ -13,14 +13,14 @@ def main():
     st.write("Enter patient details to predict the likelihood of diabetes.")
     
     # Input fields
-    pregnancies = st.number_input("Pregnancies", min_value=0, max_value=20, value=0)
-    glucose = st.number_input("Plasma Glucose", min_value=0, max_value=300, value=0)
-    blood_pressure = st.number_input("Diastolic Blood Pressure", min_value=0, max_value=200, value=0)
-    skin_thickness = st.number_input("Triceps Skin Fold Thickness", min_value=0, max_value=100, value=0)
-    insulin = st.number_input("Serum Insulin", min_value=0, max_value=900, value=0)
-    bmi = st.number_input("BMI", min_value=0.0, max_value=100.0, value=0)
-    pedigree = st.number_input("Diabetes Pedigree Function", min_value=0.0, max_value=3.0, value=0)
-    age = st.number_input("Age", min_value=0, max_value=120, value=0)
+    pregnancies = st.number_input("Pregnancies", min_value=0, max_value=20, value=1)
+    glucose = st.number_input("Plasma Glucose", min_value=0, max_value=300, value=100)
+    blood_pressure = st.number_input("Diastolic Blood Pressure", min_value=0, max_value=200, value=70)
+    skin_thickness = st.number_input("Triceps Skin Fold Thickness", min_value=0, max_value=100, value=20)
+    insulin = st.number_input("Serum Insulin", min_value=0, max_value=900, value=80)
+    bmi = st.number_input("BMI", min_value=0.0, max_value=100.0, value=25.0)
+    pedigree = st.number_input("Diabetes Pedigree Function", min_value=0.0, max_value=3.0, value=0.5)
+    age = st.number_input("Age", min_value=0, max_value=120, value=30)
     
     if st.button("Predict"):
         model, scaler = load_model_and_scaler()
